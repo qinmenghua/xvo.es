@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" target="_blank">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,28 +31,51 @@
         white-space: pre;
       }
       a:visited {
-        color: blue;
+        color: blueviolet;
       }
-      pre code a {
+      a:hover {
+        color: pink;
+      }
+      a {
         text-decoration: none;
+      }
+      pre code table {
+        border: 1px dotted #ddd;
+        border-collapse: separate;
+        border-spacing: 5px 5px;
+        empty-cells: hide;
+        table-layout: fixed;
+      }
+      pre code table caption {
+        font-weight: 500;
+      }
+      pre code table tr td {
+        padding: 2px;
+        border-bottom: 1px dotted #ddd;
       }
     </style>
   </head>
   <body>
-    <header>A Simple, Minimal and Safe URL Shortener.</header>
-    <pre><code>URL lists:<a href="/blog"> /blog </a>|<a href="/pgp"> /pgp </a>|<a href="/github"> /github </a>|<a href="/telegram"> /telegram </a>|<a href="/group"> /group </a></code></pre>
-    <pre><code>WY.MK / <a href="/index.html">Home</a>
- 1. Minimal and Simple
-    keep fast and stable.
-
- 2. Extremely Safe
-    enjoy yourself, no worries about hacking.
-
- 3. Easy Deploy
-    selfhosted on Cloudflare pages or Vercel...
-    
- 4. All of Yours
-    data of URL redirect in single file.</code></pre>
-    <footer>Powered by <a href="https://github.com/MoeOffice/xvo.es">xvo.es</a>.</footer>
+    <header>WY.MK / <a href="/index.html">Home</a></header>
+    <pre><code><table>
+      <caption>URL Lists</caption>
+      <tr>
+        <td><a href="/blog" target="_blank"> /blog </a></td>
+        <td><a href="/reader" target="_blank"> /reader </a></td>
+        <td><a href="/wallos" target="_blank"> /wallos </a></td>
+        <td><a href="/timer" target="_blank"> /timer </a></td>
+      </tr>
+      <tr>
+        <td><a href="/tu" target="_blank"> /tu </a></td>
+        <td><a href="/file" target="_blank"> /file </a></td>
+        <td><a href="/files" target="_blank"> /files </a></td>
+        <td><a href="/nav" target="_blank"> /nav </a></td>
+      </tr>
+      <tr>
+        <td><a href="/qiandao" target="_blank"> /qiandao </a></td>
+        <td><a href="/hub" target="_blank"> /hub </a></td>
+      </tr>
+     </table></code></pre>
+    <footer>Powered by <a href="https://github.com/MoeOffice/xvo.es" target="_blank">xvo.es</a>.</footer
   </body>
 </html>
