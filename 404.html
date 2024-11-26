@@ -3,44 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="The URL you requested does not exist." />
-    <title>404</title>
+    <title>404 - Page Not Found - WY.MK</title>
     <style>
-      @media (max-width: 720px) {
-        pre code {
-          display: block;
-          max-width: 100%;
-          overflow-x: auto;
-          -webkit-overflow-scrolling: touch;
-          padding: 0 5px 5px 0;
-          word-wrap: break-word;
-          white-space: pre-wrap;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
+
       body {
-        font-family: monospace;
-        max-width: 80ch;
+        font-family: 'Arial', sans-serif;
+        background-color: #fafafa;
+        color: #333;
+        text-align: center;
+        padding: 40px 20px;
       }
+
+      header {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #e74c3c;
+      }
+
       footer {
-        white-space: pre;
+        font-size: 0.9rem;
+        color: #777;
+        margin-top: 40px;
       }
-      a:visited {
-        color: blue;
-      }
-      header a {
+
+      a {
+        color: #3498db;
         text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #e74c3c;
+      }
+
+      pre {
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 1rem;
+        color: #555;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 600px;
+        overflow: auto;
+        word-wrap: break-word;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 720px) {
+        body {
+          padding: 20px;
+        }
       }
     </style>
   </head>
   <body>
     <header>404 ERROR!</header>
-    <pre><code>Let's back to <a href="/">Home</a> / <a href="/lists.html">Lists</a>
-  - the URL you requested does not exist.
-  - so we can't find the URL.
-  - did you enter a wrong link?
-  - or you can contact the administrator.</code></pre>
-  <footer>Powered by <a href="https://github.com/MoeOffice/xvo.es">xvo.es</a>.</footer>
+    <pre><code>
+Let's go back to <a href="https://awy.me">Home</a> / <a href="/index.html">Lists</a>
+- The URL you requested does not exist.
+- We couldn't find the page.
+- Did you enter the wrong link?
+- Or you can contact the administrator if needed.
+    </code></pre>
+    <footer>Powered by <a href="https://wy.mk" target="_blank">WY.MK</a> , Modify with <a href="https://github.com/MoeOffice/xvo.es" target="_blank">xvo.es</a></footer>
   </body>
 </html>
