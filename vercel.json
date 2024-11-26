@@ -2,27 +2,62 @@
   "redirects": [
     {
       "source": "/blog",
-      "destination": "https://www.dejavu.moe",
+      "destination": "https://awy.me",
       "permanent": false
     },
     {
-      "source": "/pgp",
-      "destination": "https://pgp.dejavu.moe",
+      "source": "/reader",
+      "destination": "https://reader.awy.me",
       "permanent": false
     },
     {
-      "source": "/github",
-      "destination": "https://github.com/MoeOffice/xvo.es",
+      "source": "/wallos",
+      "destination": "https://wallos.awy.me",
       "permanent": false
     },
     {
-      "source": "/telegram",
-      "destination": "https://t.me/dejavuBlog",
+      "source": "/timer",
+      "destination": "https://timer.awy.me",
       "permanent": false
     },
     {
-      "source": "/group",
-      "destination": "https://t.me/dejavuGroup",
+      "source": "/tu",
+      "destination": "https://tu.awy.me",
+      "permanent": false
+    },
+    {
+      "source": "/file",
+      "destination": "https://file.wy.mk",
+      "permanent": false
+    },
+    {
+      "source": "/files",
+      "destination": "https://files.awy.me/",
+      "permanent": false
+    },
+    {
+      "source": "/nav",
+      "destination": "https://nav.awy.me",
+      "permanent": false
+    },
+    {
+      "source": "/qiandao",
+      "destination": "https://qiandao.awy.me",
+      "permanent": false
+    },
+    {
+      "source": "/hub",
+      "destination": "https://hub.wy.mk",
+      "permanent": false
+    },
+    {
+      "source": "/sy",
+      "destination": "https://sy.wy.mk",
+      "permanent": false
+    },
+    {
+      "source": "/pwd",
+      "destination": "https://pwd.wy.mk",
       "permanent": false
     }
   ]
